@@ -1,4 +1,6 @@
 
+# read it before exam.
+
 https://www.pearsonvue.com/us/en/test-takers/resources.html#what-to-expect
 
 For test-takers
