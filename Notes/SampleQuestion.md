@@ -2668,3 +2668,444 @@ Which is a best practice for workload architecture?**
 **Answer: CloudWatch**
 
 ---
+
+### **Q241. Which AWS service allows querying logs using a SQL-like syntax?**
+
+* CloudWatch Logs Insights
+* Athena
+* Redshift
+* OpenSearch
+
+**Answer: CloudWatch Logs Insights**
+
+---
+
+### **Q242. Which service provides operational visibility using metrics, logs, and alarms?**
+
+* CloudTrail
+* CloudWatch
+* WAF
+* GuardDuty
+
+**Answer: CloudWatch**
+
+---
+
+### **Q243. Which service helps visualize resource relationships and configuration history?**
+
+* CloudTrail
+* GuardDuty
+* AWS Config
+* Inspector
+
+**Answer: AWS Config**
+
+---
+
+### **Q244. AWS Config evaluates resource compliance using:**
+
+* IAM policies
+* Config rules
+* CloudWatch alarms
+* Lambda layers
+
+**Answer: Config rules**
+
+---
+
+### **Q245. CloudTrail is used to monitor:**
+
+* API activity across AWS accounts
+* Database performance
+* VPC traffic
+* EC2 CPU usage
+
+**Answer: API activity across AWS accounts**
+
+---
+
+### **Q246. Which AWS monitoring tool detects unusual API calls?**
+
+* CloudWatch
+* GuardDuty
+* Inspector
+* Macie
+
+**Answer: GuardDuty**
+
+---
+
+### **Q247. GuardDuty helps detect:**
+
+* SQL injection
+* Suspicious account behavior
+* DDoS attacks
+* Data archiving issues
+
+**Answer: Suspicious account behavior**
+
+---
+
+### **Q248. Which service protects applications from common exploit patterns?**
+
+* WAF
+* GuardDuty
+* Macie
+* Config
+
+**Answer: WAF**
+
+---
+
+### **Q249. AWS WAF can block:**
+
+* Misconfigured IAM policies
+* SQL injection & XSS
+* DDoS attacks
+* Glacier retrieval fees
+
+**Answer: SQL injection & XSS**
+
+---
+
+### **Q250. Which AWS security service protects against DDoS attacks on CloudFront and Route 53?**
+
+* Macie
+* GuardDuty
+* Shield
+* Inspector
+
+**Answer: Shield**
+
+---
+
+### **Q251. Amazon Macie helps identify:**
+
+* Infrastructure vulnerabilities
+* Sensitive data in S3
+* Account misuse
+* DNS issues
+
+**Answer: Sensitive data in S3**
+
+---
+
+### **Q252. Which service scans EC2 instances for software vulnerabilities?**
+
+* Macie
+* Inspector
+* WAF
+* Shield
+
+**Answer: Inspector**
+
+---
+
+### **Q253. Which service identifies misconfigurations by comparing resource state to best practices?**
+
+* CloudTrail
+* Config
+* CloudWatch
+* Athena
+
+**Answer: Config**
+
+---
+
+### **Q254. IAM security methods include (choose two):**
+
+* Amazon Rekognition
+* AWS Shield
+* Security Groups
+* MFA
+* Password strength & expiration
+
+**Answer: MFA, Password strength & expiration**
+
+---
+
+### **Q255. IAM access keys are used to:**
+
+* Log into AWS Console
+* Make programmatic API calls
+* Log into EC2
+* Access SSO portal
+
+**Answer: Make programmatic API calls**
+
+---
+
+### **Q256. If an EC2 instance runs 3h 5m 6s, billed time is:**
+
+* 3h 5m
+* 3h 5m 6s
+* 3h 6m
+* 4h
+
+**Answer: 3h 6m**
+
+---
+
+### **Q257. Which AWS service provides real-time search capabilities?**
+
+* OpenSearch
+* SNS
+* EC2
+* SQS
+
+**Answer: OpenSearch**
+
+---
+
+### **Q258. Which storage class is ideal for long-term backups with lowest cost?**
+
+* S3 Standard
+* S3 Standard-IA
+* S3 Glacier Deep Archive
+* EBS
+
+**Answer: S3 Glacier Deep Archive**
+
+---
+
+### **Q259. Cross-region replication in S3 is used for:**
+
+* Faster billing updates
+* Compliance & disaster recovery
+* Reducing EC2 cost
+* Encrypting objects
+
+**Answer: Compliance & disaster recovery**
+
+---
+
+### **Q260. S3 Intelligent-Tiering helps customers:**
+
+* Reduce latency
+* Optimize storage costs automatically
+* Retrieve data faster
+* Encrypt objects
+
+**Answer: Optimize storage costs automatically**
+
+---
+
+### **Q261. Which AWS service provides a virtual private cloud?**
+
+* VPC
+* CloudFront
+* Route 53
+* Global Accelerator
+
+**Answer: VPC**
+
+---
+
+### **Q262. In VPC, subnets can be:**
+
+* Only public
+* Only private
+* Public or private
+* Must span all AZs
+
+**Answer: Public or private**
+
+---
+
+### **Q263. Internet Gateway enables:**
+
+* Internal DNS
+* Internet access for VPC resources
+* S3 replication
+* VPC peering
+
+**Answer: Internet access for VPC resources**
+
+---
+
+### **Q264. NAT Gateway allows:**
+
+* Public access to EC2
+* Private subnets to access the internet
+* DNS routing
+* Lambda network controls
+
+**Answer: Private subnets to access the internet**
+
+---
+
+### **Q265. VPC Peering enables:**
+
+* Global caching
+* Private communication between VPCs
+* On-prem connectivity
+* IAM role sharing
+
+**Answer: Private communication between VPCs**
+
+---
+
+### **Q266. Direct Connect provides:**
+
+* Encrypted storage
+* Dedicated fiber connection to AWS
+* EC2 auto scaling
+* Low-cost S3 storage
+
+**Answer: Dedicated fiber connection to AWS**
+
+---
+
+### **Q267. Which service connects multiple VPCs and on-prem networks at scale?**
+
+* Route 53
+* Direct Connect
+* Transit Gateway
+* CloudFront
+
+**Answer: Transit Gateway**
+
+---
+
+### **Q268. Which AWS service manages inbound/outbound DNS traffic?**
+
+* CloudFront
+* Route 53
+* IAM
+* Config
+
+**Answer: Route 53**
+
+---
+
+### **Q269. Route 53 routing policies include:**
+
+* Static only
+* Geo, latency-based, failover
+* CDN routing
+* IAM routing
+
+**Answer: Geo, latency-based, failover**
+
+---
+
+### **Q270. CloudFront reduces latency by:**
+
+* Caching data in EC2
+* Caching data at edge locations
+* Increasing RDS size
+* Compressing IAM policies
+
+**Answer: Caching data at edge locations**
+
+---
+
+### **Q271. Which AWS compute service runs containers without managing servers?**
+
+* EC2
+* EKS
+* ECS Fargate
+* Lambda
+
+**Answer: ECS Fargate**
+
+---
+
+### **Q272. ECS Fargate allows customers to:**
+
+* Manage EC2 clusters manually
+* Run containers serverlessly
+* Run only Windows workloads
+* Manage hardware
+
+**Answer: Run containers serverlessly**
+
+---
+
+### **Q273. Which AWS service is Kubernetes-compatible and fully managed?**
+
+* ECS
+* EKS
+* Lambda
+* EC2
+
+**Answer: EKS**
+
+---
+
+### **Q274. Which compute service is best for running Docker containers without cluster management?**
+
+* ECS Fargate
+* EC2
+* Outposts
+* Batch
+
+**Answer: ECS Fargate**
+
+---
+
+### **Q275. A customer wants to run a Kubernetes workload. Which AWS service?**
+
+* Lambda
+* ECS
+* EKS
+* CloudFront
+
+**Answer: EKS**
+
+---
+
+### **Q276. AWS Batch is used for:**
+
+* Event-driven compute
+* Large-scale batch computing
+* Managed Kubernetes
+* Edge networking
+
+**Answer: Large-scale batch computing**
+
+---
+
+### **Q277. AWS Batch automatically manages:**
+
+* EC2 and Fargate compute scheduling
+* IAM permissions
+* RDS backups
+* S3 encryption
+
+**Answer: EC2 and Fargate compute scheduling**
+
+---
+
+### **Q278. Which AWS service helps orchestrate microservices and APIs?**
+
+* SQS
+* SNS
+* API Gateway
+* CloudFront
+
+**Answer: API Gateway**
+
+---
+
+### **Q279. API Gateway supports:**
+
+* Only HTTP APIs
+* Multiple API types including REST & WebSocket
+* DNS routing
+* EC2 instance resizing
+
+**Answer: Multiple API types including REST & WebSocket**
+
+---
+
+### **Q280. Which AWS service provides a fully managed pub/sub messaging service?**
+
+* SQS
+* SNS
+* MQ
+* EventBridge
+
+**Answer: SNS**
+
+---
