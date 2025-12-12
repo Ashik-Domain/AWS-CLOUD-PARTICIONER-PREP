@@ -3548,3 +3548,387 @@ Which is a best practice for workload architecture?**
 **Answer: Enterprise**
 
 ---
+### **Q321. Which AWS support plan includes access to AWS TAM (Technical Account Manager)?**
+
+* Basic
+* Developer
+* Business
+* Enterprise
+
+**Answer: Enterprise**
+
+---
+
+### **Q322. The AWS Support Concierge team assists with:**
+
+* Performance tuning
+* Billing and account management
+* Code debugging
+* Database design
+
+**Answer: Billing and account management**
+
+---
+
+### **Q323. Which AWS support plan provides access to AWS Support API?**
+
+* Basic
+* Developer
+* Business
+* Enterprise
+
+**Answer: Business**
+
+---
+
+### **Q324. Which support plan is recommended for organizations running production workloads on AWS?**
+
+* Basic
+* Developer
+* Business
+* Free Tier
+
+**Answer: Business**
+
+---
+
+### **Q325. Which AWS service provides automated best practice checks?**
+
+* Inspector
+* Trusted Advisor
+* Macie
+* IAM
+
+**Answer: Trusted Advisor**
+
+---
+
+### **Q326. Trusted Advisor’s cost optimization checks include:**
+
+* IAM role rotation
+* Unused EC2 instances
+* DNS routing performance
+* Lambda function timeouts
+
+**Answer: Unused EC2 instances**
+
+---
+
+### **Q327. With AWS Organizations, SCPs (Service Control Policies) are used to:**
+
+* Control billing
+* Enforce permission boundaries across accounts
+* Configure VPC routing
+* Manage EC2 sizes
+
+**Answer: Enforce permission boundaries across accounts**
+
+---
+
+### **Q328. SCPs apply to:**
+
+* Only root user
+* IAM users and roles in member accounts
+* Only billing administrators
+* Lambda functions
+
+**Answer: IAM users and roles in member accounts**
+
+---
+
+### **Q329. Which AWS service helps find sensitive PII stored in S3 buckets?**
+
+* Macie
+* Inspector
+* GuardDuty
+* CloudWatch
+
+**Answer: Macie**
+
+---
+
+### **Q330. Which AWS service identifies security vulnerabilities in EC2?**
+
+* GuardDuty
+* Inspector
+* Macie
+* Config
+
+**Answer: Inspector**
+
+---
+
+### **Q331. Which service uses machine learning to detect unusual account behavior?**
+
+* CloudTrail
+* Trusted Advisor
+* GuardDuty
+* Macie
+
+**Answer: GuardDuty**
+
+---
+
+### **Q332. Which service helps ensure resources comply with organizational rules?**
+
+* CloudTrail
+* Config
+* Shield
+* CloudFront
+
+**Answer: Config**
+
+---
+
+### **Q333. AWS CloudTrail logs include:**
+
+* Application logs
+* User API activity
+* VPC traffic flow logs
+* Database queries
+
+**Answer: User API activity**
+
+---
+
+### **Q334. Which AWS service provides centralized user identity for workforce access?**
+
+* IAM
+* IAM Identity Center (formerly AWS SSO)
+* Cognito
+* Directory Service
+
+**Answer: IAM Identity Center**
+
+---
+
+### **Q335. IAM Identity Center enables:**
+
+* Centralized SSO access to multiple AWS accounts
+* Faster S3 uploads
+* EC2 auto scaling
+* CloudFront caching
+
+**Answer: Centralized SSO access to multiple AWS accounts**
+
+---
+
+### **Q336. Amazon Cognito provides:**
+
+* Workforce identity federation
+* User sign-up, sign-in, and identity for apps
+* S3 object encryption
+* EC2 SSH key rotation
+
+**Answer: User sign-up, sign-in, and identity for apps**
+
+---
+
+### **Q337. Cognito User Pools manage:**
+
+* IoT devices
+* Application users and authentication
+* CloudWatch metrics
+* Network traffic
+
+**Answer: Application users and authentication**
+
+---
+
+### **Q338. Cognito Identity Pools allow:**
+
+* Access to AWS services using temporary AWS credentials
+* DNS routing
+* VPC subnet creation
+* Database login authentication
+
+**Answer: Access to AWS services using temporary AWS credentials**
+
+---
+
+### **Q339. Which AWS service assists with discovering on-premises resources for migration?**
+
+* Application Discovery Service
+* DMS
+* Snowball
+* DataSync
+
+**Answer: Application Discovery Service**
+
+---
+
+### **Q340. AWS DMS (Database Migration Service) is used to:**
+
+* Manage relational databases
+* Automate schema changes
+* Migrate databases to AWS with minimal downtime
+* Run high-performance queries
+
+**Answer: Migrate databases to AWS with minimal downtime**
+
+---
+
+### **Q341. Which service helps migrate large datasets from on-premises to AWS using appliances?**
+
+* DataSync
+* Snowball
+* DMS
+* CodePipeline
+
+**Answer: Snowball**
+
+---
+
+### **Q342. AWS Snowmobile is designed for:**
+
+* Edge compute
+* Shipping exabyte-scale data
+* Database migration
+* DNS routing
+
+**Answer: Shipping exabyte-scale data**
+
+---
+
+### **Q343. AWS Migration Hub provides:**
+
+* Unified dashboard for application migration progress
+* Automatic EC2 creation
+* VPC routing analysis
+* Logging of DDoS attacks
+
+**Answer: Unified dashboard for application migration progress**
+
+---
+
+### **Q344. Which AWS service helps customers migrate VMs to AWS?**
+
+* Application Migration Service (MGN)
+* Lambda
+* ECS
+* GuardDuty
+
+**Answer: Application Migration Service (MGN)**
+
+---
+
+### **Q345. MGN performs:**
+
+* Real-time replication of on-premises servers to AWS
+* Container orchestration
+* Static website hosting
+* API rate limiting
+
+**Answer: Real-time replication of on-premises servers to AWS**
+
+---
+
+### **Q346. A customer needs to convert on-prem VMware workloads to EC2. Which service?**
+
+* MGN
+* Lambda
+* Snowball
+* Cognito
+
+**Answer: MGN**
+
+---
+
+### **Q347. Which AWS service helps customers migrate databases from Oracle to Aurora?**
+
+* DMS
+* Snowball
+* MGN
+* EventBridge
+
+**Answer: DMS**
+
+---
+
+### **Q348. Amazon Aurora is a:**
+
+* NoSQL database
+* High-performance relational database compatible with MySQL/PostgreSQL
+* Data warehouse
+* Search engine
+
+**Answer: High-performance relational database compatible with MySQL/PostgreSQL**
+
+---
+
+### **Q349. Aurora offers up to how many replicas with low-latency replication?**
+
+* 2
+* 5
+* 15
+* Unlimited
+
+**Answer: 15**
+
+---
+
+### **Q350. Which AWS database service automatically scales storage up to 128 TB?**
+
+* DynamoDB
+* RDS
+* Aurora
+* Redshift
+
+**Answer: Aurora**
+
+---
+
+### **Q351. Which Aurora feature improves read performance?**
+
+* Read replicas
+* Glacier storage
+* Edge caching
+* IAM roles
+
+**Answer: Read replicas**
+
+---
+
+### **Q352. Which AWS tool automates schema conversion during migration?**
+
+* DMS
+* SCT (Schema Conversion Tool)
+* Snowball
+* DataSync
+
+**Answer: SCT (Schema Conversion Tool)**
+
+---
+
+### **Q353. A company needs multi-master database writes across Regions. Which AWS database should they use?**
+
+* DynamoDB global tables
+* Aurora Serverless
+* RDS MySQL
+* Redshift
+
+**Answer: DynamoDB global tables**
+
+---
+
+### **Q354. DynamoDB global tables provide:**
+
+* Low-latency multi-Region replication
+* VPC routing
+* Data warehousing
+* Automated log processing
+
+**Answer: Low-latency multi-Region replication**
+
+---
+
+### **Q355. Which AWS flexibility benefit allows deploying apps across multiple Regions?**
+
+* Scalability
+* Global reach
+* Reliability
+* Durability
+
+**Answer: Global reach**
+
+---
