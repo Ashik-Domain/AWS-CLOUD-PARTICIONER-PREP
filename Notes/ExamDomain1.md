@@ -313,11 +313,6 @@
 - Reviews your workloads
 - Compares workloads to latest AWS best practices for architectural design
 - Best practices come directly from AWS Well-Architected Framework
-
-**Resources:**
-- Links provided for AWS Well-Architected Framework
-- Links provided for the tool for deeper dive
-
 ---
 
 ## Pillar 1: Operational Excellence
