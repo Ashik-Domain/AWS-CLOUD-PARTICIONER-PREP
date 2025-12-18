@@ -1,9 +1,5 @@
----
-
 ## ✨ Complete Summary of Module 1 — Cloud Fundamentals (AWS-Centric)
-
 ## **1. Amazon’s Journey to AWS**
-
 * Amazon built scalable internal IT systems in early 2000s.
 * 2003: Realised they could offer these efficiencies to the world.
 * 2004: Launched **Amazon SQS** — first public AWS service.
